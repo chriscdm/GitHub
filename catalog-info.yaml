@@ -12,3 +12,4 @@ spec:
   type: other
   lifecycle: production
   owner: test_user
+  system: examples
