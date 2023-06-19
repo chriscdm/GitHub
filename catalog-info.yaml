@@ -1,1 +1,14 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GitHub
+  description: Online repository and version control management system for real-time collaboration on custom code; includes RBAC1 for teams, integrations with Jira, automated security policy enforcement2, among other features
+  annotations:
+    github.com/project-slug: chriscdm/GitHub
+  tags:
+    - utility
+    - codemgmt
+spec:
+  type: other
+  lifecycle: production
+  owner: test_user
