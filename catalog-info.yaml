@@ -1,14 +1,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: github-temp
+  name: github-backstage-config
   description: Online repository and version control management system
   title: GitHub
   annotations:
-    github.com/project-slug: [***]
+    github.com/project-slug: ***/github-backstage-config
   tags:
     - utility
     - codemgmt
+  links:
+    - url: https://department-of-veterans-affairs.github.io/github-handbook/github-teams-in-the-va
+      title: VA Notify Full Documentation
+      icon: dashboard
 spec:
   type: utility
   lifecycle: production
