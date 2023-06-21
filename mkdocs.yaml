@@ -1,1 +1,3 @@
-
+site_name: Overview of GitHub at the VA
+nav:
+  - Home: index.md
