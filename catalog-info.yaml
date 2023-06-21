@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Resource
 metadata:
   name: github-backstage-config
   description: Online repository and version control management system
@@ -11,10 +11,10 @@ metadata:
     - codemgmt
   links:
     - url: https://department-of-veterans-affairs.github.io/github-handbook/github-teams-in-the-va
-      title: VA Notify Full Documentation
-      icon: dashboard
+      title: Overview of GitHub at the VA
+      icon: web
 spec:
-  type: utility
+  type: ***
   lifecycle: production
-  owner: test_user
-  system: examples
+  owner: ***
+  system: ***
